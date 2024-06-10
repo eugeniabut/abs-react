@@ -5,6 +5,7 @@ import Spinner from './Spinner';
 
 
 
+
 const JobListing = ({isHome = false}) => {
 
    const [jobs, setJobs] = useState([])
@@ -14,11 +15,11 @@ const JobListing = ({isHome = false}) => {
     const fetchJobs = async()=>{
       const url = isHome?"/api/jobs?_limit=3" : "/api/jobs"
 try {
-     const responce = await fetch(url);
-      const data = await responce.json();
+     const response = await fetch(url);
+      const data = await response.json();
       setJobs(data)
 } catch (error) {
-   console.log("error fetching data, error");
+   console.log("error fetching data", error);
 }
 finally {
   setLoading(false)
