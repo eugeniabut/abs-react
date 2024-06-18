@@ -85,17 +85,17 @@
       }
     },
     {
-      "id": "b309",
+      "id": "88e9",
       "type": "Full-Time",
-      "title": "wwww",
-      "location": "ww",
-      "description": "www",
+      "title": "Web Dev",
+      "location": "Leipzig",
+      "description": "cool job",
       "salary": "Under $50K",
       "company": {
-        "name": "w",
-        "description": "w",
-        "contactEmail": "rhrn@gmail.de",
-        "contactPhone": "111"
+        "name": "AOK",
+        "description": "Krankenkasse",
+        "contactEmail": "aok@gmail.com",
+        "contactPhone": "12345"
       }
     }
   ]
